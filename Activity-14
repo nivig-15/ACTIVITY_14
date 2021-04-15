@@ -139,8 +139,7 @@ int main()
 	m=input_m_value(); //m is the no of timecards
 	timecards t[m];
 	input_m_timecards(m,t);
-compute_n_values(n,m,t,p);
-	compute_n_employee(n,p);
+	compute_n_values(n,m,t,p);
 	output_n_employee(n,p);
 	return 0;
 }
